@@ -25,5 +25,5 @@ jobs:
       - name: Build and Push Docker Image 
         run: |
           export GH_PACKAGES_TOKEN=${{ secrets.GH_PACKAGES_TOKEN }}
-          bash build_push_image_karsajobs.sh
+          
 
