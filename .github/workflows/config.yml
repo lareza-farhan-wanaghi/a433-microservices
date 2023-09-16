@@ -15,8 +15,7 @@ jobs:
 
       - name: Install and Run Hadolint  # Step to install Hadolint and run it on Dockerfile
         run: |
-          wget -O hadolint 
-https://github.com/hadolint/hadolint/releases/latest/download/hadolint-Linux-x86_64
+          wget -O hadolint https://github.com/hadolint/hadolint/releases/latest/download/hadolint-Linux-x86_64
           chmod +x hadolint
           ./hadolint Dockerfile
 
